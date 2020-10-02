@@ -115,32 +115,47 @@
 			</Item>
 		</Item>
 		<Item Name="빌드 스펙" Type="Build">
-			<Item Name="SET_game_200817_1" Type="EXE">
+			<Item Name="SET game" Type="Zip File">
+				<Property Name="Absolute[0]" Type="Bool">false</Property>
+				<Property Name="BuildName" Type="Str">SET game</Property>
+				<Property Name="Comments" Type="Str"></Property>
+				<Property Name="DestinationID[0]" Type="Str">{0EC9E1A3-7007-4D6A-97DE-FDA26D182193}</Property>
+				<Property Name="DestinationItemCount" Type="Int">1</Property>
+				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
+				<Property Name="IncludedItemCount" Type="Int">1</Property>
+				<Property Name="IncludedItems[0]" Type="Ref">/내 컴퓨터</Property>
+				<Property Name="IncludeProject" Type="Bool">true</Property>
+				<Property Name="Path[0]" Type="Path">../Backup/SET_game.zip</Property>
+				<Property Name="ZipBase" Type="Str">Game_SET</Property>
+			</Item>
+			<Item Name="SET_game" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{DEA3905B-58C6-4574-BA8D-381F3C0A1EB4}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{A23F1F41-001F-49C3-8B95-DA5C5EF63A6D}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{E9A240FF-26A9-49D0-BE77-C9C92EF47A71}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">SET_game_200817_1</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">SET_game</Property>
 				<Property Name="Bld_defaultLanguage" Type="Str">Korean</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/SET_game_200817_1</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../EXE/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E9D9CFD8-F493-4704-8FE3-D5892A8BD344}</Property>
 				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">SET_game_200817_1.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/SET_game_200817_1/SET_game_200817_1.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">SET_game.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../EXE/NI_AB_PROJECTNAME/SET_game.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">지원 디렉토리</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/SET_game_200817_1/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../EXE/NI_AB_PROJECTNAME/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{ECFDC285-388C-41BF-9C66-AA1095775548}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C93866FE-115B-4CAA-8777-48D7681EF895}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/내 컴퓨터/SET_play.vi</Property>
@@ -160,26 +175,13 @@
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">충북대학교</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">SET_game_200817_1</Property>
-				<Property Name="TgtF_internalName" Type="Str">SET_game_200817_1</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">SET_game</Property>
+				<Property Name="TgtF_internalName" Type="Str">SET_game</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">저작권 2020 충북대학교</Property>
-				<Property Name="TgtF_productName" Type="Str">SET_game_200817_1</Property>
+				<Property Name="TgtF_productName" Type="Str">SET_game</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B20412B2-125C-449C-86B0-CE195585D2A6}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">SET_game_200817_1.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">SET_game.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="나의 압축(Zip) 파일" Type="Zip File">
-				<Property Name="Absolute[0]" Type="Bool">false</Property>
-				<Property Name="BuildName" Type="Str">나의 압축(Zip) 파일</Property>
-				<Property Name="Comments" Type="Str"></Property>
-				<Property Name="DestinationID[0]" Type="Str">{0EC9E1A3-7007-4D6A-97DE-FDA26D182193}</Property>
-				<Property Name="DestinationItemCount" Type="Int">1</Property>
-				<Property Name="DestinationName[0]" Type="Str">Destination Directory</Property>
-				<Property Name="IncludedItemCount" Type="Int">1</Property>
-				<Property Name="IncludedItems[0]" Type="Ref">/내 컴퓨터</Property>
-				<Property Name="IncludeProject" Type="Bool">true</Property>
-				<Property Name="Path[0]" Type="Path">../../builds/SET_game/나의 압축(Zip) 파일/SET_game.zip</Property>
-				<Property Name="ZipBase" Type="Str">Game_SET</Property>
 			</Item>
 		</Item>
 	</Item>
